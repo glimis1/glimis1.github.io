@@ -9,7 +9,8 @@
     "http-serve": "^1.0.1",
     "http-server": "^0.12.1",
     "images": "^3.0.2",
-    "node-xlsx": "^0.15.0"
+    "node-xlsx": "^0.15.0",
+    "qr-image": "^3.2.0"
   },
   "devDependencies": {},
   "scripts": {
