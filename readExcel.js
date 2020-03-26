@@ -25,7 +25,7 @@ for(let i = 0;i<arr.length ; i++){
     let code = ejs.render(html,{
         users:arr[i]
     })
-    fs.writeFileSync(`./${i}.html`,code,"utf-8")
+    fs.writeFileSync(`./${i+1}.html`,code,"utf-8")
 }
 
 
