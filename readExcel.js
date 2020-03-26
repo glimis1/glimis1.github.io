@@ -13,11 +13,12 @@ let user = []
 for(let i = 1;i<obj[0].data.length;i++){
     var item = obj[0].data[i]
     if(item[0]){
-        arr.push(user)
+        user.length && arr.push(user)
         user = []
     }
     user.push(item.slice(1))
 }
+
 
 arr.push(user)
 
