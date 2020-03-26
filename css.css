@@ -1,0 +1,148 @@
+.page {
+  width: 100%;
+  min-height: 100%;
+}
+
+
+
+html {
+  font-size: 625%;
+}
+
+.transition{
+  transition: left 2s;
+}
+body {
+  font-size: .14rem;
+}
+
+.container{
+  height: 100%;
+}
+
+
+body,
+html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+.p2,
+.p3,
+.p4 {
+  /* display: none; */
+  animation:fadenum 4s ease;
+}
+
+
+.box {
+  display: flex;
+}
+
+.p1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.p1 .logo {
+  border-radius: .1rem;
+  width: .9rem;
+}
+
+.p2 {
+  background-size:contain;
+  background-repeat: no-repeat;
+  
+  display: flex;
+  font-size: .3rem;
+  writing-mode: tb-rl;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+
+.p3 {
+  background-size: cover;
+  background-repeat: no-repeat;
+
+
+  display: flex;
+  flex-flow: column;
+  font-family: cursive;
+  /* padding-left: 0.5rem; */
+  font-size: .2rem;
+  margin-bottom: .1rem;
+}
+
+.p3 p {
+  padding-left: 0.5rem;
+}
+.p4 {
+  height: 100%;
+  overflow-y: scroll;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+
+.p4 table {
+  width: 100%;
+}
+
+.p4 table th {
+  font-size: 0.14rem;
+}
+
+.p4 table td {
+  font-size: .12rem;
+  text-align: center;
+}
+
+.p4 h1 {
+  margin-top: 0px;
+  text-align: center;
+}
+
+.p4 h2 {
+  text-align: center;
+  font-family: cursive;
+  font-size: 0.17rem;
+}
+
+.p4 .message {
+  text-indent: 2em;
+  padding: .2rem;
+}
+
+.p4 .table {
+  margin: 5px;
+}
+
+.p1,.p2,.p3,.p4{
+  position: relative;
+  margin: 0px;
+  position: relative;
+  padding: 0px;
+}
+
+
+.flex {
+  display: flex;
+}
+
+.flex-item {
+  flex: 1;
+  text-align: center;
+}
+
+.flex-item img {
+  width: 86%;
+  height: 1rem;
+}
+
+.center {
+  text-align: center;
+}
+
